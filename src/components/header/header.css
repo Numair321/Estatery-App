@@ -1,0 +1,120 @@
+
+.header{
+    width:80%;
+    margin-left:8rem;
+    margin-top:5rem;
+    background-color: rgb(237, 231, 242);
+    padding-bottom: 1rem;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+    float:left;
+    padding:0.5rem;
+}
+.header input{
+    float:right;
+    height:2rem;
+    width:15rem;
+    font-size:1rem;
+    border: 1px solid silver;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.filters{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    margin-top:1rem;
+    width:95%;
+    margin-left:2rem;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    font-size:1.5rem;
+    font-weight: 500;
+    color:rgb(138, 134, 134);
+    padding:1rem;
+    padding-left:1rem;
+}
+.vl{
+    margin-top:1rem;
+    border-right: 1px solid rgb(222, 217, 217);
+    height:4rem;
+    margin-right:3rem;
+}
+.filters input{
+    border:1px solid white;
+    border-bottom:1px solid silver;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width:80%;
+    font-size:1.5rem;
+    margin-top:1rem;
+    margin-right:-6rem;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: .2;
+    color: black;
+}
+.filter .date{
+    display: flex;
+    margin-left: -6rem!important;
+}
+.filter .date .pick{
+    width:100%;
+    margin-left:-3rem;
+    background: none;
+    border-right: none;
+    cursor: pointer !important;
+}
+.filters .search{
+    height:5rem;
+    margin-top:0.5rem;
+    width:10rem;
+    background-color: rgb(84, 9, 119);
+    border-radius: 0.5rem;
+    border:1px solid rgb(84, 9, 119);
+    color:white;
+    font-size:1.5em;
+    font-weight: 600;
+}
+.filters button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 3px 3px 3px rgb(219, 214, 214);
+}
+input:focus {
+    outline: none !important;
+}
+.dropdown-btn{
+    padding-top:0.6rem;
+    padding-left:0.5rem !important;
+    cursor: pointer;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+}
+.dropdown-content{
+    padding:0.7rem;
+    position: absolute;
+    background-color: white;
+    width:14.85rem;
+    font-size: 1.3rem;
+}
+.dropdown-content .dropdown-item{
+    padding-left:1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    width:13.5rem;
+    border-bottom: 1px solid rgb(0,0,0,0.06);
+}
+.dropdown-item:hover{
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+}

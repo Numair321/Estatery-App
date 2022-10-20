@@ -5,10 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(237, 231, 242);  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media(min-width:100px)
+{
+  html{
+    font-size: 20%;
+  }
+}
+@media(min-width:500px)
+{
+  html{
+    font-size: 30%;
+  }
+}
+@media(min-width:800px)
+{
+  html{
+    font-size: 50%;
+  }
+}
+@media(min-width:1200px)
+{
+  html{
+    font-size: 70%;
+  }
+}
+@media(min-width:1500px)
+{
+  html{
+  font-size: 90%;
+}
 }

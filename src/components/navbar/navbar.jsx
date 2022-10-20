@@ -24,7 +24,6 @@ const Navbar = () => {
             <button style={{color:'white', border:'1px solid rgb(213, 201, 220)',backgroundColor:'rgb(84, 9, 119)'}}>Sign Up</button>
         </div>
     </div>
-    <hr style={{width:'100%',border:'1px solid silver',marginTop:'-0.1rem'}}/>
     </>
   )
 }
